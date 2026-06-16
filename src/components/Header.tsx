@@ -26,7 +26,7 @@ export default function Header({ activeTab, changeTab }: HeaderProps) {
           {/* Logo */}
           <div className="flex items-center flex-shrink-0 cursor-pointer" onClick={() => changeTab("inicio")}>
             <div className="bg-sky-600 text-white p-2 rounded-2xl flex items-center justify-center shadow-md shadow-sky-200 overflow-hidden">
-              <img src="/favicon-96x96.png" alt="Mundo Dental Logo" className="h-6 w-6 object-contain" />
+              <img src="/logo.jpg" alt="Mundo Dental Logo" className="h-6 w-6 object-contain rounded" />
             </div>
             <div className="ml-3 select-none">
               <span className="text-xl font-bold text-slate-800 tracking-tight font-sans">
